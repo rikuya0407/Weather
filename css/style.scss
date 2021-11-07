@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Yomogi', cursive;
+}
+
+header{
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    & .header-word{
+        margin-left: 15px;
+        & h1{
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+main{
+    & .choice{
+        & p{
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        & .city-num{
+            width: 100px;
+            height: 30px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        & .submit{
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 50px;
+        }
+    }
+
+    & .weather{
+        & .weather-word{
+            margin-top: 30px;
+        }
+
+        & .date{
+            line-height: 30px;
+        }
+    }
+}

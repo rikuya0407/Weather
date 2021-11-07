@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リクヤ's天気予報</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <section class="header-word">
+            <h1>あなたの地域はいい天気？</h1>
+            <p>ーリクヤが天気を予測してお知らせしますー</p>
+        </section>
+    </header>
+    
+    <main>
+        <section class="choice">
+            <p>調べたい地域を選択してください</p>
+                <select name="city-num" id="city-num" class="city-num">
+                    <option value="304">釧路</option>
+                    <option value="302">旭川</option>
+                    <option value="306">札幌</option>
+                    <option value="308">青森</option>
+                    <option value="309">秋田</option>
+                    <option value="312">仙台</option>
+                    <option value="323">新潟</option>
+                    <option value="325">金沢</option>
+                    <option value="319">東京</option>
+                    <option value="316">宇都宮</option>
+                    <option value="322">長野</option>
+                    <option value="329">名古屋</option>
+                    <option value="331">大阪</option>
+                    <option value="341">高松</option>
+                    <option value="337">松江</option>
+                    <option value="338">広島</option>
+                    <option value="344">高知</option>
+                    <option value="346">福岡</option>
+                    <option value="352">鹿児島</option>
+                    <option value="352">奄美</option>
+                    <option value="353">那覇</option>
+                    <option value="356">石垣</option>
+                </select><br>
+                <button class="submit">送信</button>
+        </section>
+        <section class="weather">
+            <p class="weather-word"></p>
+            <p class="date"></p>
+        </section>
+    </main>
+
+    <script src="js/weather.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
